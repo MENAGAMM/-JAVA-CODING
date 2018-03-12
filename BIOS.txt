@@ -1,0 +1,344 @@
+AWARD BIOS
+
+Beeps	                                           Meaning
+
+1 long, 2 short	                                Video adapter error: Bad or improperly seated video card
+
+Repeating beeps	                                Memory error: Bad or improperly seated RAM
+
+1 long, 3 short	                                Bad video RAM or video card not present
+
+High-frequency beeps	                        Overheated CPU: Check fans
+
+Repeating high/low beeps	                CPU: Improperly seated or defective CPU
+
+-------------------------------------------------------------------------------------------------------
+
+
+AMI (American Megatrends)
+
+The information below is from the BIOS Central AMI BIOS Beep Codes page.
+
+Beeps	                                        Meaning
+
+1 short	                                       DRAM refresh failure
+
+2 short	                                       Parity circuit failure in the first 64 KB of RAM: Likely a bad RAM IC, or possibly one of the hardware tests has failed
+
+3 short	                                       Memory failure in the first 64 KB of RAM: Likely a bad RAM IC
+
+4 short	                                       System timer failure: Bad clock IC or bad RAM in the first bank of memory
+
+5 short	                                       Processor failure: The CPU has failed.
+
+6 short	                                       Keyboard controller Gate A20 error: The keyboard controller has failed. Due to its integration into the system board, you usually must replace the motherboard.
+
+7 short	                                       Virtual mode exception error: CPU has generated an exception error; bad CPU or motherboard
+
+8 short	                                       Display memory Read/Write test failure: Bad video card
+
+9 short	                                       ROM BIOS checksum failure: BIOS is defective
+
+10 short	                               CMOS shutdown Read/Write error
+
+11 short	                               Cache Memory error: Specifically, the L2 cache is bad.
+
+1 long, 2 short	                               Video system failure: Error in video card BIOS, or a horizontal retrace has failed
+
+1 long, 3 short	                               Conventional/Extended memory failure: RAM is bad
+
+1 long, 8 short	                               Display/Retrace test failed: Video adapter is defective or missing
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+AST BIOS
+
+The following information is from the BIOS Central AST BIOS Beep Codes page.
+
+Beeps	                                       Meaning
+
+1 short	                                      CPU register test failure: The CPU has failed.
+
+2 short	                                      Keyboard controller buffer failure: The keyboard controller has failed.
+
+3 short	                                      Keyboard controller reset failure: The keyboard controller has failed or the motherboard circuitry is faulty.
+
+4 short	                                      Keyboard communication failure: Bad keyboard controller or keyboard
+
+5 short	                                      Keyboard input failure: The keyboard controller IC has failed.
+
+6 short	                                      System board chipset failure: The chipset on the motherboard has failed. Replace the motherboard.
+
+9 short	                                      BIOS ROM checksum error: The BIOS ROM has failed. If possible, replace the BIOS on the motherboard.
+
+10 short	                              System timer test failure: The system clock IC has failed.
+
+11 short	                              ASIC failure: Motherboard circuitry has failed. Replace the motherboard.
+
+12 short	                              CMOS RAM shutdown register failure: The real-time clock/CMOS IC failed. Replace the CMOS or motherboard.
+
+1 long	                                      DMA controller 0 failure: The DMA controller IC for channel 0 has failed. If possible, replace the IC.
+
+1 long, 1 short	                              DMA controller 1 failure: The DMA controller IC for channel 1 has failed. If possible, replace the IC.
+
+1 long, 2 short	                              Video vertical retrace failure: The video adapter has probably failed. Replace the video adapter.
+
+1 long, 3 short	                              Video memory test failure: The video adapter's memory has failed. Replace the video adapter.
+
+1 long, 4 short	                              Video adapter failure: The video adapter has failed. Replace the video adapter.
+
+1 long, 5 short	                              64 KB memory failure: A failure has occurred in the base 64 KB of memory. If possible, replace the RAM IC.
+
+1 long, 6 short	                              Unable to load interrupt vectors: The BIOS was unable to load the interrupt vectors into memory.
+
+1 long, 7 short	                              Unable to initialize video: This is a video problem. Replace the video adapter first. If the problem persists, replace the motherboard.
+
+1 long, 8 short	                              Video memory failure: There is a failure in the video memory. Replace the video adapter first. If the problem persists, replace the motherboard.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Compaq
+
+The following information is from the BIOS Central Compaq BIOS Beep Codes page.
+
+Beeps	                                                                                 Meaning
+
+1 short	                                                                             No error: The system is booting properly.
+
+1 long, 1 short	                                                                     BIOS ROM checksum error: The contents of the BIOS ROM do not match the expected contents. If possible, reload the BIOS from the PAQ.
+
+2 short	                                                                             General error: No specifics available on what this code means
+
+1 long, 2 short	                                                                     Video error: Check the video adapter and make sure it's seated properly. If possible, replace the video adapter.
+
+7 beeps (1 long, 1 short, 1 long, 1 short, pause, 1 long, 1 short, 1 short)          AGP video: The AGP video card is faulty. Reseat the card or replace it outright. This beep pertains to Compaq Deskpro systems.
+
+Continuous beep	                                                                     Memory error: Bad RAM; replace and test
+
+1 short, 2 long	                                                                     Bad RAM: Reseat RAM, then retest; replace RAM if failure continues.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Quadtel BIOS
+
+The following information is from the BIOS Central Quadtel BIOS Beep Codes page.
+
+1 short	                                                         Normal boot: System is booting normally.
+
+2 short	                                                         CMOS IC error: The CMOS RAM is faulty. Replace the IC if possible.
+
+1 long, 2 short	                                                 Video failure: The video adapter is faulty. Reseat the video adapter or replace the adapter if possible.
+
+1 long, 3 short	                                                 Peripheral controller error: One or more of the system peripheral controllers is bad. Replace the controllers and retest.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Mylex
+
+Beeps	                                                               Meaning
+
+1	                                                          Normal boot: No problems
+
+2	                                                          Video adapter error: Video adapter is not seated or is faulty
+
+3	                                                          Keyboard controller error: Keyboard controller IC bad
+
+4	                                                          Keyboard error: Keyboard itself might be bad, or the controller IC on the motherboard
+
+5	                                                          PIC 0 error: The programmable interrupt controller IC is bad
+
+6	                                                          PIC 1 error: Same as above
+
+7	                                                          DMA page register error: DMA controller IC is bad
+
+8	                                                          RAM refresh error
+
+9	                                                          RAM data error
+
+10	                                                          RAM parity error
+
+11	                                                          DMA controller 0 error: DMA controller IC for channel 0 has failed
+
+12	                                                          CMOS RAM error: Bad CMOS RAM
+
+13	                                                          DMA controller 1 error: DMA controller IC for channel 1 has failed
+
+14	                                                          CMOS RAM battery error: Dead CMOS battery; can usually be replaced
+
+15	                                                          CMOS RAM checksum error: CMOS RAM failed
+
+16	                                                          BIOS ROM checksum error: BIOS RAM failed
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IBM ThinkPad
+
+Beeps	                                                                  Meaning
+
+Continuous beeping	                                           System board failure
+
+1 beep with blank display	                                   LCD connector problem, LCD backlight inverter failure, video adapter failure, or LCD assembly failure
+
+1 beep w/message "Unable to access boot source"                    Boot device failure or bad system board
+
+1 long, 2 short	                                                   System board, video adapter, or LCD assembly failure
+
+1 long, 4 short	                                                   Low battery voltage
+
+1 beep every second	                                           Low battery voltage
+
+2 short w/message	                                           Read the error message on the display
+
+2 short with blank display	                                   System board failure
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IBM Desktop
+
+Beeps	                                                               Meaning
+
+No beep	                                                           No power, loose expansion card (ISA, PCI, or AGP), a short, or an improperly grounded motherboard
+
+1 short	                                                           System okay
+
+1 long	                                                           Video/display problem; video card incorrectly seated or defective
+
+2 short	                                                           POST Error displayed on monitor
+
+3 long	                                                           Problem with 3270 keyboard card
+
+1 long, 1 short	                                                   Problem with system board
+
+1 long, 2 short	                                                   Problem with display adapter (MDA, CGA)
+
+1 long, 3 short	                                                   Problem with EGA
+
+Repeating short beeps	                                           Problem with power supply or system board
+
+Continuous beep	                                                   Problem with power supply or system board
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phoenix
+
+The following information applies to Phoenix BIOS Q3.07 or 4.x. This information is from the Phoenix BIOS beep codes section of the ComputerHope.com Computer POST and beep codes page.
+
+Dashes indicate pauses between beeps.
+
+Beeps	                                                                              Meaning
+1-1-1-3	                                                             Verify real mode.
+1-1-2-1                                                        	     Get CPU type.
+1-1-2-3	                                                             Initialize system hardware.
+1-1-3-1	                                                             Initialize chipset registers with initial POST values.
+1-1-3-2	                                                             Set in POST flag.
+1-1-3-3	                                                             Initialize CPU registers.
+1-1-4-1	                                                             Initialize cache to initial POST values.
+1-1-4-3	                                                             Initialize I/O.
+1-2-1-1	                                                             Initialize Power Management.
+1-2-1-2	                                                             Load alternate registers with initial POST values.
+1-2-1-3	                                                             Jump to UserPatch0.
+1-2-2-1	                                                             Initialize keyboard controller.
+1-2-2-3	                                                             BIOS ROM checksum
+1-2-3-1	                                                             8254 timer initialization
+1-2-3-3	                                                             8237 DMA controller initialization
+1-2-4-1	                                                             Reset Programmable Interrupt Controller.
+1-3-1-1	                                                             Test DRAM refresh.
+1-3-1-3	                                                             Test 8742 Keyboard Controller.
+1-3-2-1	                                                             Set ES segment to register to 4 GB.
+1-3-3-1	                                                             28 Autosize DRAM.
+1-3-3-3	                                                             Clear 512 KB base RAM.
+1-3-4-1	                                                             Test 512 KB base address lines.
+1-3-4-3	                                                             Test 512 KB base memory.
+1-4-1-3	                                                             Test CPU bus-clock frequency.
+1-4-2-4	                                                             Reinitialize the chipset.
+1-4-3-1	                                                             Shadow system BIOS ROM.
+1-4-3-2      	                                                     Reinitialize the cache.
+1-4-3-3	                                                             Autosize cache.
+1-4-4-1	                                                             Configure advanced chipset registers.
+1-4-4-2	                                                             Load alternate registers with CMOS values.
+2-1-1-1	                                                             Set Initial CPU speed.
+2-1-1-3	                                                             Initialize interrupt vectors.
+2-1-2-1	                                                             Initialize BIOS interrupts.
+2-1-2-3	                                                             Check ROM copyright notice.
+2-1-2-4	                                                             Initialize manager for PCI Options ROMs.
+2-1-3-1	                                                             Check video configuration against CMOS.
+2-1-3-2	                                                             Initialize PCI bus and devices.
+2-1-3-3	                                                             Initialize all video adapters in system.
+2-1-4-1             	                                             Shadow video BIOS ROM.
+2-1-4-3	                                                             Display copyright notice.
+2-2-1-1	                                                             Display CPU type and speed.
+2-2-1-3	                                                             Test keyboard.
+2-2-2-1	                                                             Set key click if enabled.
+2-2-2-3	                                                             56 Enable keyboard.
+2-2-3-1	                                                             Test for unexpected interrupts.
+2-2-3-3	                                                             Display message "Press F2 to enter SETUP".
+2-2-4-1	                                                             Test RAM between 512 and 640 KB.
+2-3-1-1	                                                             Test expanded memory.
+2-3-1-3	                                                             Test extended memory address lines.
+2-3-2-1	                                                             Jump to UserPatch1.
+2-3-2-3	                                                             Configure advanced cache registers.
+2-3-3-1	                                                             Enable external and CPU caches.
+2-3-3-3	                                                             Display external cache size.
+2-3-4-1   	                                                     Display shadow message.
+2-3-4-3	                                                             Display non-disposable segments.
+2-4-1-1	                                                             Display error messages.
+2-4-1-3	                                                             Check for configuration errors.
+2-4-2-1	                                                             Test real-time clock.
+2-4-2-3	                                                             Check for keyboard errors.
+2-4-4-1	                                                             Set up hardware interrupts vectors.
+2-4-4-3	                                                             Test coprocessor if present.
+3-1-1-1	                                                             Disable onboard I/O ports.
+3-1-1-3	                                                             Detect and install external RS232 ports.
+3-1-2-1	                                                             Detect and install external parallel ports.
+3-1-2-3	                                                             Re-initialize onboard I/O ports.
+3-1-3-1	                                                             Initialize BIOS Data Area.
+3-1-3-3	                                                             Initialize Extended BIOS Data Area.
+3-1-4-1	                                                             Initialize floppy controller.
+3-2-1-1	Initialize hard-disk controller.
+3-2-1-2	Initialize local-bus hard-disk controller.
+3-2-1-3	Jump to UserPatch2.
+3-2-2-1	Disable A20 address line.
+3-2-2-3	Clear huge ES segment register.
+3-2-3-1	Search for option ROMs.
+3-2-3-3	Shadow option ROMs.
+3-2-4-1	Set up Power Management.
+3-2-4-3	Enable hardware interrupts.
+3-3-1-1	Set time of day.
+3-3-1-3	Check key lock.
+3-3-3-1	Erase "F2" message.
+3-3-3-3	Scan for F2 keystroke.
+3-3-4-1	Enter SETUP.
+3-3-4-3	Clear in-POST flag.
+3-4-1-1	Check for errors.
+3-4-1-3	POST complete; prepare to boot operating system.
+3-4-2-1	One beep.
+3-4-2-3	Check password (optional).
+3-4-3-1	Clear global descriptor table.
+3-4-4-1	Clear parity checkers.
+3-4-4-3	Clear screen (optional).
+3-4-4-4	Check virus and backup reminders.
+4-1-1-1	Try to boot with INT 19.
+4-2-1-1	Interrupt handler error.
+4-2-1-3	Unknown interrupt error.
+4-2-2-1	Pending interrupt error.
+4-2-2-3	Initialize option ROM error.
+4-2-3-1	Shutdown error.
+4-2-3-3	Extended Block Move.
+4-2-4-1	Shutdown 10 error.
+4-3-1-3	Initialize the chipset.
+4-3-1-4	Initialize refresh counter.
+4-3-2-1	Check for Forced Flash.
+4-3-2-2	Check HW status of ROM.
+4-3-2-3	BIOS ROM is okay.
+4-3-2-4	Do a complete RAM test.
+4-3-3-1	Do OEM initialization.
+4-3-3-2	 Initialize interrupt controller.
+4-3-3-3	Read in bootstrap code.
+4-3-3-4	Initialize all vectors.
+4-3-4-1	Boot the Flash program.
+4-3-4-2	Initialize the boot device.
+4-3-4-3	Boot code was read okay.
+
